@@ -4,17 +4,17 @@ public class DepositoAgua {
     private double       volumenActual;
     private DepositoAgua depositoDesborde;
 
-    // Constructor vacío
+    
     public DepositoAgua() {}
 
-    // Constructor con capacidad
+   
     public DepositoAgua(double capacidad) {
         this.capacidad        = capacidad;
         this.volumenActual    = 0;
         this.depositoDesborde = null;
     }
 
-    // Constructor completo
+   
     public DepositoAgua(double capacidad, double volumenActual) {
         this.capacidad        = capacidad;
         this.volumenActual    = volumenActual;
