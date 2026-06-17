@@ -6,10 +6,10 @@ public class Vuelo {
     private int    ocupacion;
     private int    capacidadMaxima;
 
-    // Constructor vacío
+   
     public Vuelo() {}
 
-    // Constructor de ruta
+   
     public Vuelo(String numero, String origen, String destino) {
         this.numero    = numero;
         this.origen    = origen;
@@ -17,7 +17,7 @@ public class Vuelo {
         this.ocupacion = 0;
     }
 
-    // Constructor completo
+    
     public Vuelo(String numero, String origen, String destino,
                  int ocupacion, int capacidadMaxima) {
         this.numero          = numero;
