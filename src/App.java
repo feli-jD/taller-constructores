@@ -15,7 +15,7 @@ public class App {
         libro3.mostrarInfo();
 
         libro2.prestar();
-        libro2.prestar();   // ya prestado
+        libro2.prestar();   
         libro2.devolver();
 
 
@@ -35,7 +35,7 @@ public class App {
         vuelo3.mostrarInfo();
         vuelo3.embarcar();
         vuelo3.embarcar();
-        vuelo3.embarcar();   // lleno
+        vuelo3.embarcar();   
         vuelo3.desembarcar();
         vuelo3.embarcar();
 
